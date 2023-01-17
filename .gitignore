@@ -1,0 +1,8 @@
+#Ignore
+
+Logs
+env
+
+.ipynb_checckpoints
+.__pycache__
+
