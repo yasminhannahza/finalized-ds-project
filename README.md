@@ -1,4 +1,3 @@
-# finalized-ds-project
 # Sign-nificant!
 
 ## Installation in command prompt
