@@ -3,7 +3,7 @@
 ## Installation in command prompt
 ### 1. Clone Repository
 ```
-git clone https://github.com/yasminhannahza/finalized-ds-project.git
+git clone https://github.com/yasminhannahza/sign-nificant.git
 ```
 ### 2. Create your virtual environment (venv) using conda
 ```
@@ -20,9 +20,9 @@ conda activate <VENV_NAME>
 pip install -r requirements.txt
 ```
 
-### 5. Change directory to finalized-ds-project
+### 5. Change directory to project directory
 ```
-cd <PATH/TO/finalized-ds-project>
+cd <PATH/TO/sign-nificant>
 ```
 ### 6. Run Application
 ```
