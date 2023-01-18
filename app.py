@@ -126,14 +126,17 @@ def index():
     """Video streaming home page."""
     return render_template('index.html', current_action=current_action, current_score=current_score)
 
-@app.route("/about")
+@app.route("/about.html")
 def about():
     return render_template("about.html")
 
-@app.route("/manual")
+@app.route("/manual.html")
 def manual():
     return render_template("manual.html")
 
+@app.route("/index.html")
+def indexhome():
+    return render_template("index.html")
 
 
 label_map = {label: num for num, label in enumerate(

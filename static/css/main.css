@@ -357,3 +357,31 @@ input:checked + .slider_switch:before {
   background-color: rgb(134, 173, 134);;
 }
 
+.navbar-container {
+  background-color: #f1f1f1; /* set background color */
+  display: flex; /* make items inside the container align horizontally */
+  justify-content: space-between; /* align items to the left and right of the container */
+}
+
+nav ul {
+  list-style: none; /* remove bullet points from list */
+  margin: 0; /* remove default margin */
+  padding: 0; /* remove default padding */
+  display: flex; /* make list items align horizontally */
+}
+
+nav ul li {
+  margin: 0 10px; /* add some margin between list items */
+}
+
+nav ul li a {
+  color: #333; /* set text color */
+  text-decoration: none; /* remove underline from links */
+  font-size: 16px; /* set font size */
+}
+
+nav ul li a:hover {
+  color: #9ac3a2; /* change text color on hover */
+}
+
+
