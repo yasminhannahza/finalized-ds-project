@@ -134,9 +134,15 @@ def about():
 def manual():
     return render_template("manual.html")
 
-@app.route("/index.html")
+@app.route('/index.html', methods=['GET', 'POST'])
 def indexhome():
-    return render_template("index.html")
+
+    """Video streaming home page."""
+    return render_template('index.html', current_action=current_action, current_score=current_score)
+
+#@app.route("/index.html")
+#def indexhome():
+#    return render_template("index.html")
 
 
 label_map = {label: num for num, label in enumerate(
